@@ -3,44 +3,67 @@
 <head>
 
 <meta charset="UTF-8">
-
-<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Codify</title>
+
+<link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
+<!-- ================= HEADER ================= -->
+
 <header>
 
-<h1>CODIFY</h1>
+<div class="logo">
 
-<p>Школа программирования</p>
-
-</header>
-
-<section class="hero">
-
-<div class="left">
-
-<h2>Добро пожаловать!</h2>
-
-<p>
-
-Изучайте программирование вместе с лучшими преподавателями.
-
-</p>
-
-<button>Начать обучение</button>
+CODIFY
 
 </div>
 
-<div class="right">
+<nav>
 
-<div class="photo">
+<a href="#about">О школе</a>
+<a href="#teachers">Преподаватели</a>
+<a href="#contacts">Контакты</a>
 
-Ваше фото
+</nav>
+
+</header>
+
+<!-- ================= HERO ================= -->
+
+<section class="hero">
+
+<div class="hero-text">
+
+<h1>
+Добро пожаловать
+в Codify
+</h1>
+
+<p>
+
+Школа программирования нового поколения.
+Создаем будущих разработчиков уже сегодня.
+
+</p>
+
+<button>
+
+Записаться
+
+</button>
+
+</div>
+
+<div class="hero-image">
+
+<div class="photo-placeholder">
+
+ВСТАВЬТЕ<br>ФОТО
 
 </div>
 
@@ -48,11 +71,97 @@
 
 </section>
 
-<section>
+<!-- ================= ABOUT ================= -->
 
-<h2>Наши преподаватели</h2>
+<section id="about">
+
+<h2>
+
+Почему выбирают Codify?
+
+</h2>
+
+<div class="cards">
+
+<div class="card">
+
+🎓
+
+<h3>10000+</h3>
+
+<p>Выпускников</p>
+
+</div>
+
+<div class="card">
+
+💻
+
+<h3>Harvard & MIT</h3>
+
+<p>Современная методология</p>
+
+</div>
+
+<div class="card">
+
+🌍
+
+<h3>Онлайн</h3>
+
+<p>Можно учиться из любого города</p>
+
+</div>
+
+<div class="card">
+
+📹
+
+<h3>Записи уроков</h3>
+
+<p>Доступны всегда</p>
+
+</div>
+
+<div class="card">
+
+🚀
+
+<h3>BootCamp</h3>
+
+<p>Летние интенсивы</p>
+
+</div>
+
+<div class="card">
+
+🏆
+
+<h3>Хакатоны</h3>
+
+<p>Настоящие проекты</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= TEACHERS ================= -->
+
+<section id="teachers">
+
+<h2>
+
+Наши преподаватели
+
+</h2>
+
+<div class="teacher-grid">
 
 <div class="teacher">
+
+<div class="avatar"></div>
 
 <h3>Максат Каныбеков</h3>
 
@@ -62,23 +171,46 @@
 
 <div class="teacher">
 
+<div class="avatar"></div>
+
 <h3>Азамат</h3>
 
 <p>Python</p>
 
 </div>
 
+<div class="teacher">
+
+<div class="avatar"></div>
+
+<h3>Азамат</h3>
+
+<p>Startup Studio</p>
+
+</div>
+
+</div>
+
 </section>
+
+<!-- ================= AI ================= -->
 
 <section>
 
-<h2>AI Помощник</h2>
+<h2>
 
-<div id="chat">
+AI Помощник
+
+</h2>
+
+<div class="chat">
 
 <div id="messages"></div>
 
-<input id="question">
+<input
+id="question"
+placeholder="Введите вопрос..."
+>
 
 <button onclick="send()">
 
@@ -90,8 +222,57 @@
 
 </section>
 
+<!-- ================= CONTACTS ================= -->
+
+<section id="contacts">
+
+<h2>
+
+Контакты
+
+</h2>
+
+<div class="contacts">
+
+<div>
+
+<h3>📍 Филиалы</h3>
+
+<p>7 микрорайон 26/2</p>
+
+<p>Ибраимова 115</p>
+
+<p>Тыналиева 2/7</p>
+
+</div>
+
+<div>
+
+<h3>☎ Телефон</h3>
+
+<p>+996 500 431 430</p>
+
+<h3>🌐 Сайт</h3>
+
+<p>codify.lab</p>
+
+<h3>📷 Instagram</h3>
+
+<p>@codify.kids</p>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Codify
+
+</footer>
+
 <script src="script.js"></script>
 
 </body>
-
 </html>
